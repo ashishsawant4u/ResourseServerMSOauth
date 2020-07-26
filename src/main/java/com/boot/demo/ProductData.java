@@ -9,6 +9,8 @@ public class ProductData {
 	private String description;
 	
 	private double unitPrice;
+	
+	public ProductData() {}
 
 	public ProductData(String productCode, String name, String description, double unitPrice) {
 

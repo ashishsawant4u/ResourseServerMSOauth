@@ -3,11 +3,13 @@ package com.boot.demo;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@EnableResourceServer
 public class ProductsService {
 
 	
